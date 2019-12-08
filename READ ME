@@ -7,4 +7,4 @@ gets the value of the counter (TIM2) and resets it for the next cycle.
 Then, calculates the round and the speed of the motor. (PI control)
 Then assigns the new value of the duty for the motor. 
 When reference rpm value (ref_rpm) is entered by the user,
-motor sets its speed to that referenced rpm.  
+motor sets its speed to that referenced rpm.   
