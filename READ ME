@@ -1,0 +1,5 @@
+# Speed-control-of-DC-motor
+Speed control of 12V DC motor (one channel) using lm298 motor driver module and stm32f4 microcontroller.
+
+Basic explanation of the code:
+In every 100ms, code is in timer interrupt(TIM3), gets the value of the counter (TIM2) and resets it for the next cycle. Then, calculates the round and the speed of the motor. (PI control) Then assigns the new value of the duty for the motor. When reference rpm value (ref_rpm) is entered by the user, motor sets its speed to that referenced rpm.  
